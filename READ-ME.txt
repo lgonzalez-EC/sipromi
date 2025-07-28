@@ -1,0 +1,5 @@
+  =>  Template Name    : SIPROM - Desarrollo de la pagina web de la empresa Siprom-Mantenimiento industrial y residencial 
+
+  =>  Template Author  : SEEM - Edge&Cloud
+
+  =>  Author Website   : https://edgecloud.com.mx  https://seem.com.mx  

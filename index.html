@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SIPROM - Mantenimiento industrial y recidencial</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Favicons -->
+        <link href="img/icon.png" rel="icon">
+        
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.1/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+            <!-- Navbar & Hero Start -->
+            <div class="container-fluid header-top bg-white content">
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand" style="height: 125px; width: 100%;">
+                        <img src="img/logo_B.png" style="margin-top: -40px;" alt="marca-gto-logo" height="130px" width="130px">
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-4 text-center">
+                                <div class="d-flex justify-content-md-start">
+                                    <div class="d-flex pe-3" style="margin-top: 10px;">
+                                        <a class="btn p-0 text-primary me-3 fs-5" href="#" style="margin-left: 10px;"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn p-0 text-primary me-3 fs-5" href="#"><i class="fab fa-instagram" style="margin-left: 40px;"></i></a>
+                                        <a class="btn p-0 text-primary me-0 fs-5" href="#"><i class="fab fa-linkedin-in" style="margin-left: 40px;"></i></a>
+                                    </div>
+                                    <img src="img/marca-gto-logo.png" alt="marca-gto-logo" height="105px" width="105px" style="position:absolute; right:100px; margin-top: 115px; z-index: 10;"> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="index.html" class="navbar-brand-2">
+                                <img src="img/logo_B.png" style="margin-top:-10px; height: 100px; margin-left: 20px;" alt="marca-gto-logo" height="80px" width="100px"> 
+                            </a>  
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto bg-white" style="padding-top: 10px;">
+                                    <a href="index.html" class="nav-item nav-link fs-6 active" style="margin-left: 13px;">Inicio</a>
+                                    <a href="about.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Nosotros</a>
+                                    <a href="service.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Servicios</a>
+                                    <a href="contact.html" class="nav-item nav-link fs-6" style="margin-left: 13px;">Contacto</a>
+                                    <div class="nav-btn ps-3"></div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar & Hero End -->
+
+        <style>
+            .header-top {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        </style>
+        
+
+        <!-- Inicio del Carrusel -->
+        <div class="header-carousel owl-carousel overflow-hidden" style="margin-top: 80px;">
+            <div class="header-carousel-item hero-section-1">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h1 class="display-2 text-white mb-4">Energía y Soluciones que Impulsan tu Futuro</h1>
+                                    <!-- <p class="mb-5 fs-5">En Siprom, brindamos soluciones eléctricas integrales con profesionalismo y tecnología avanzada. Desde la instalación hasta el mantenimiento, somos tu aliado para garantizar sistemas eficientes y seguros.</p> -->
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0">
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Descubre Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item hero-section-2"> 
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-start">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Confianza y Experiencia</h4>
+                                    <h1 class="display-2 text-white mb-4">5 Años Transformando Espacios</h1>
+                                    <!-- <p class="mb-5 fs-5">Con décadas de experiencia en mantenimiento eléctrico industrial y residencial, nuestro equipo asegura calidad en cada proyecto, adaptándonos a tus necesidades específicas.</p> -->
+                                    <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0">
+                                        <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="#">Conócenos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin del Carrusel -->
+
+
+        <!-- Inicio de Nosotros -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <h1 class="display-4 mb-4">¿Quiénes somos?</h1>
+                            <p class="mb-4 fs-6">Somos más que un equipo, somos tus aliados en 
+                                la búsqueda de soluciones innovadoras. Durante más de 25 años, 
+                                hemos transformado ideas en proyectos reales, ayudando a nuestros 
+                                clientes a alcanzar sus objetivos con tecnología, experiencia y un toque humano.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="position-relative h-100">
+                            <img src="img/about-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Sobre nosotros">
+                            <div class="bg-white">
+                                <div class="position-absolute pt-3 bg-white" style="width: 50%; left: 0; bottom: 0;">
+                                    <div class="bg-primary p-4">
+                                        <h4 class="display-3 mb-0 ms-4">5+</h4>
+                                        <p class="text-white fs-6 mb-0">de especialización</p>
+                                    </div>
+                                </div>
+                                <div class="position-absolute p-3 bg-white pb-0 pe-0" style="width: 50%; bottom: 0; right: 0;">
+                                    <img src="img/about-2.jpg" class="img-fluid" alt="Equipo profesional">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin de Nosotros -->
+
+
+        <!-- Banner Start -->
+        <div class="container-fluid banner py-5 wow zoomIn" data-wow-delay="0.2s">
+            <div class="banner-design-1"></div>
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="">
+                            <h4 class="text-white">Contactanos</h4>
+                            <h1 class="display-4 text-white mb-0"> Especialistas en el asero inoxidable </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center justify-content-lg-end h-100">
+                            <a class="btn btn-primary py-3 px-4 px-md-5 ms-2" href="contact.html">Cuentanos más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+
+        <!-- Inicio de Servicios -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Nuestros Servicios</h4>
+                    <h1 class="display-4 mb-4">Soluciones que Transforman Espacios</h1>
+                    <p class="mb-0">En **Siprom**, ofrecemos servicios diseñados para garantizar eficiencia, seguridad y calidad en cada proyecto. Desde soluciones residenciales hasta servicios industriales, trabajamos con compromiso para superar tus expectativas y llevar tus espacios al siguiente nivel.</p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-3 wow fadeInLeft" data-wow-delay="0.2s">
+                        <ul class="nav">
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5 active" data-bs-toggle="pill" href="#ServiceTab-1">
+                                    <span>Comercial</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-2">
+                                    <span>Residencial</span>
+                                </a>
+                            </li>
+                            <li class="nav-item me-lg-0 mb-4 mb-lg-0">
+                                <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-3">
+                                    <span>Industrial</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="tab-content">
+                            <div id="ServiceTab-1" class="tab-pane fade show p-0 active">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="Servicios Comerciales">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Mantenimiento de Oficinas</h4>
+                                            <p class="mb-4">Asegura el funcionamiento óptimo de tus oficinas con servicios de mantenimiento eléctrico personalizados.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="Paquetes de Energía">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Optimización Energética</h4>
+                                            <p class="mb-4">Ahorra energía con soluciones que garantizan eficiencia y sostenibilidad para tus espacios comerciales.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="Cuidados Eléctricos">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Protección Eléctrica</h4>
+                                            <p class="mb-4">Protege tus equipos eléctricos y asegura la continuidad de tu negocio con nuestros sistemas avanzados.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServiceTab-2" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/residential-1.jpg" class="img-fluid w-100" alt="Servicios Residenciales">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Instalaciones Eléctricas</h4>
+                                            <p class="mb-4">Transforma tu hogar con instalaciones eléctricas confiables y adaptadas a tus necesidades.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-2.jpg" class="img-fluid w-100" alt="Sistemas de Seguridad">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Sistemas de Seguridad</h4>
+                                            <p class="mb-4">Protege lo que más importa con soluciones de seguridad integrales para tu hogar.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/residential-3.jpg" class="img-fluid w-100" alt="Aire Acondicionado">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Aire Acondicionado</h4>
+                                            <p class="mb-4">Disfruta de un clima perfecto en tu hogar con instalación y mantenimiento de aires acondicionados.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ServiceTab-3" class="tab-pane fade show p-0">
+                                <div class="service-carousel owl-carousel">
+                                    <div class="service-item">
+                                        <img src="img/industrial-1.jpg" class="img-fluid w-100" alt="Fábricas y Manufactura">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Mantenimiento de Fábricas</h4>
+                                            <p class="mb-4">Maximiza la productividad de tus instalaciones industriales con mantenimiento eléctrico eficiente.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-2.jpg" class="img-fluid w-100" alt="Soluciones Generales">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Soluciones Eléctricas Generales</h4>
+                                            <p class="mb-4">Desde grandes industrias hasta pequeñas plantas, brindamos soluciones eléctricas confiables y personalizadas.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                    <div class="service-item">
+                                        <img src="img/industrial-3.jpg" class="img-fluid w-100" alt="Planificación Eléctrica">
+                                        <div class="border border-top-0 p-4">
+                                            <h4 class="mb-3">Planificación Eléctrica</h4>
+                                            <p class="mb-4">Diseñamos y planificamos sistemas eléctricos que garantizan eficiencia y durabilidad para tus instalaciones.</p>
+                                            <a class="btn btn-primary py-2 px-4" href="#">Descubre más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Fin de Servicios -->
+
+
+        <!-- Blog Start -->
+         <!-- <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Blog</h4>
+                    <h1 class="display-4 mb-4">Electricity News & Updates</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, deserunt provident ab voluptates rerum eaque eum magni autem atque in minus laboriosam corrupti deleniti voluptatibus rem reiciendis modi veniam animi?
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electrifying Reads Explore Our Electricity</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Empowering Energy Dive into Our Electricity </a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-heading ms-4">
+                                <a href="#" class="h4 mb-0 p-4">Electricity Explained: Bloggin Power of Tomorrow</a>
+                            </div>
+                            <div class="blog-content bg-light p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 small"><i class="fa fa-calendar me-2"></i> April 2,2025</p>
+                                    <p class="mb-0 small"><i class="fa fa-tag me-2"></i> Electricity Corner</p>
+                                </div>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis rem distinctio tempora eum quam eligendi. Repudiandae voluptas voluptatibus quo itaque!
+                                </p>
+                                <a class="btn btn-primary py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+        <!-- Blog End -->
+
+
+        <!-- Inicio de equipo -->
+         <!-- <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="d-flex flex-column mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Team</h4>
+                    <h1 class="display-4 mb-4">Electricity Service offerings</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, deserunt provident ab voluptates rerum eaque eum magni autem atque in minus laboriosam corrupti deleniti voluptatibus rem reiciendis modi veniam animi?
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
+                                <div class="team-icon">
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-primary mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content bg-light text-center p-4">
+                                <h4>Shoaib Bashir</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+        <!-- Fin de equipo -->
+
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-fluid testimonial bg-dark py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-xl-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <h4 class="text-primary">Testimonial</h4>
+                        <h1 class="display-4 text-white mb-4">Powerfull Praise Heare From Our Customers</h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia hic aspernatur unde magnam necessitatibus provident iusto maxime nobis esse eligendi.
+                        </p>
+                        <a class="btn btn-light py-3 px-5" href="#">View All Reviews</a>
+                    </div>
+                    <div class="col-lg-6 col-xl-7 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                                </div>
+                                <div class="testimonial-inner p-4">
+                                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="">
+                                    <div class="ms-4">
+                                        <h4>Person Name</h4>
+                                        <p>Profession</p>
+                                        <div class="d-flex text-primary">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star text-body"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-text p-4">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta neque ab repudiandae reprehenderit ipsum eos cumque esse repellendus impedit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> -->
+        <!-- Testimonial End -->
+
+
+        <!-- Inicio de Preguntas Frecuentes -->
+        <div class="container-fluid faq-section bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.4s">
+                        <h4 class="text-primary">Preguntas Frecuentes</h4>
+                        <h1 class="display-4 mb-4">Resolvemos tus dudas sobre mantenimiento eléctrico</h1>
+                        <p class="mb-4">Sabemos que elegir un servicio de mantenimiento industrial o residencial puede generar muchas preguntas. Aquí encontrarás respuestas claras a las dudas más comunes.</p>
+                        <a class="btn btn-primary py-3 px-5" href="#">¿Tienes más preguntas?</a>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="h-100">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            P: ¿Qué incluye el mantenimiento eléctrico residencial?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            R: El mantenimiento residencial incluye revisión de cables, enchufes, tableros eléctricos, interruptores y lámparas. También nos aseguramos de que tus sistemas sean seguros, eficientes y cumplan con las normativas eléctricas.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            P: ¿Con qué frecuencia se recomienda el mantenimiento eléctrico industrial?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            R: Recomendamos realizar un mantenimiento preventivo cada 6 meses o dependiendo de la carga de trabajo de tus equipos eléctricos. Esto asegura un funcionamiento continuo y evita fallos costosos en tus operaciones.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            P: ¿Ofrecen servicios de urgencias para problemas eléctricos?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            R: Sí, contamos con un servicio de emergencias 24/7 para resolver fallos eléctricos críticos tanto en hogares como en industrias. Estamos listos para actuar de inmediato y minimizar interrupciones.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            P: ¿Qué equipos eléctricos pueden revisar y reparar?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            R: Podemos revisar y reparar tableros de control, transformadores, motores eléctricos, sistemas de iluminación y todo tipo de instalaciones eléctricas tanto industriales como residenciales.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            P: ¿Qué ventajas ofrece el acero inoxidable en comparación con otros materiales?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            R: El acero inoxidable es resistente a la corrosión, duradero, fácil de mantener, higiénico y estéticamente atractivo, lo que lo convierte en una opción ideal para proyectos tanto industriales como residenciales.
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin de Preguntas Frecuentes -->
+
+
+        
+       <!-- Inicio del Footer -->
+       <div class="container-fluid footer bg-dark py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 align-items-end">
+                <div class="col-lg-12"> 
+                    <div class="d-flex align-items-center justify-content-center"> <!-- Alineación centrada -->
+                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <!-- <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a> -->
+                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3 ">
+                    <div class="footer-item d-flex flex-column align-items-center justify-content-center" style="margin-top: 20px;">   
+                        <a href="index.html"><img src="img/icon.png" alt="marca-gto-logo" height="100px" width="200px"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                        <a href="index.html"> • Inicio</a>
+                        <a href="about.html"> • Nosotros</a>
+                        <a href="service.html"> • Servicios</a>
+                        <a href="contact.html"> • Contáctanos</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Nuestros Servicios</h4>
+                        <a href="#"> • Aire Acondicionado</a>
+                        <a href="#"> • Paneles Eléctricos</a>
+                        <a href="#"> • Sistema de Seguridad</a>
+                        <a href="#"> • Iluminación Interior</a>
+                        <a href="#"> • Instalaciones Eléctricas</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Información de Contacto</h4>
+                        <a href="#"><i class="fa fa-map-marker-alt text-primary me-2"></i> C. Vía Campos Otoñales 1002, La Campiña, 37290 León de los Aldama, Gto</a>
+                        <a href="mailto:info@ejemplo.com"><i class="fas fa-envelope text-primary me-2"></i> contacto@sipromi.com.mx</a>
+                        <a href="tel:+012 345 67890"><i class="fas fa-phone text-primary me-2"></i> 477 254 0897
+                        <a href="tel:+012 345 67890"><i class="fas fa-phone text-primary me-2"></i> +012 345 67890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Footer End -->
+
+    
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+        <div class="row g-4 align-items-center justify-content-center">
+            <div class="col-md-6 text-center mb-md-0">
+            <span class="text-body"><a href="index.html" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>SIPROM</a>, Todos los derechos reservados®.</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
